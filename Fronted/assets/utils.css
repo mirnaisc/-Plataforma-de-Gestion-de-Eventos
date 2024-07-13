@@ -1,0 +1,31 @@
+/* utils.css */
+
+/* Utility classes for common styles */
+
+.text-center {
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.margin-top-small {
+    margin-top: 10px;
+}
+
+.margin-bottom-small {
+    margin-bottom: 10px;
+}
+
+.padding-small {
+    padding: 10px;
+}
+
+.border-radius-small {
+    border-radius: 5px;
+}
+
+.shadow-small {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
