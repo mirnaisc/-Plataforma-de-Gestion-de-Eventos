@@ -40,7 +40,7 @@ class _PaginaInicioSesionState extends State<PaginaInicioSesion> {
       String password = _passwordController.text;
 
       // Aquí puedes agregar la lógica para autenticar al usuario con un servidor
-      // Por ahora, solo mostramos un mensaje de éxito
+      
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Inicio de sesión exitoso para $email')),
       );
