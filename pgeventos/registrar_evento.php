@@ -1,7 +1,7 @@
 <?php
 session_start();
 include 'config.php';
-require 'Composer/index.php';
+require 'vendor/index.php';
 
 if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");

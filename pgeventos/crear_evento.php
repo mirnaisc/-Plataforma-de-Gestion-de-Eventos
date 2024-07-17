@@ -4,7 +4,7 @@ include 'config.php';
 include 'templates/header.php';
 
 // Asegúrate de que la ruta sea correcta
-require 'Composer/index.php';
+require 'vendor/index.php';
 
 if (!isset($_SESSION['user_id']) || $_SESSION['rol'] != 'organizador') {
     header("Location: login.php");
